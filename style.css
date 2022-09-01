@@ -6,7 +6,7 @@ body {
     display: flex;
     align-items: stretch;
     flex-direction: column;
-    font-family: Roboto, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
     
     
 }
@@ -18,7 +18,7 @@ body {
 
 h1 {
     color: antiquewhite;
-    font-size: 48px;
+    font-size: 56px;
     font-weight: bolder;
     display: flex;
     align-items: center;
@@ -40,6 +40,16 @@ ul {
     text-transform: uppercase;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+li {
+    margin: 8px;
+}
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -48,7 +58,7 @@ ul {
 }
 
 .text {
-
+    font-weight: bold;
 }
 
 img{
@@ -59,8 +69,12 @@ img{
 .card {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     flex: 1;
     background-color: skyblue;
+    font-size: 36px;
+    font-style: italic;
 }
 
 p {
@@ -72,7 +86,7 @@ p {
 .signed {
     margin-right: 48px;
     margin-bottom: 48px;
-    text-align: right;
+    text-align: center;
 }
 
 .inquire {
